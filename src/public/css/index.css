@@ -1,0 +1,113 @@
+
+.contact-form__content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.contact-form__heading h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    color: #8D7B6B;
+    font-family: 'Georgia', serif;
+    margin-bottom: 40px;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    width: 30%;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #745e4d;
+}
+
+.form__label--required,
+.form__group--required {
+    color: #e08b8b;
+    margin-left: 4px;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+.form__input--text input,
+.form__input--select select,
+.form__input--textarea textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    color: #8B7969;
+    box-sizing: border-box;
+}
+
+.form__input--text {
+    display: flex;
+    gap: 20px;
+}
+
+.form__input--tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form__input--tel input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    color: #8B7969;
+    box-sizing: border-box;
+}
+
+.form__input--tel span {
+    color: #745e4d;
+    font-weight: bold;
+}
+
+.form__input--gender {
+    padding-top: 8px;
+    display: flex;
+    gap: 30px;
+    color: #745e4d;
+}
+
+.form__input--gender input[type="radio"] {
+    margin-right: 5px;
+    accent-color: #745e4d;
+}
+
+.form__input--textarea textarea {
+    height: 160px;
+    resize: vertical;
+}
+
+.form__error {
+    color: #d13737;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form__button-submit {
+    background-color: #745e4d;
+    color: #fff;
+    border: none;
+    padding: 12px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
