@@ -1,0 +1,13 @@
+.header__inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.header__logo{
+    font-family: Georgia, serif;
+    font-size: 34px;
+    color: #745e4d;
+    text-decoration: none;
+}
