@@ -8,3 +8,6 @@ PHP 8.2.11
 
 
 laravel-langは使用禁止。日本語化は'lang/ja'直接入力する
+
+
+![ER図](docs/er.png)
